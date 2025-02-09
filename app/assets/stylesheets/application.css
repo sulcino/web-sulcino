@@ -7,4 +7,39 @@
  * depending on specificity.
  *
  * Consider organizing styles into separate files for maintainability.
- */
+ /* Kontejner nastaví flexbox pro uspořádání boxů vedle sebe */
+
+/* Kontejner nastaví flexbox pro rozložení boxů vedle sebe */
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;          /* mezery mezi boxy */
+  justify-content: center;
+  padding: 20px;
+}
+
+/* Box s vnějším rámečkem a vnitřním pseudo-elementem */
+.box {
+  position: relative;        /* nutné pro absolutní umístění pseudo-elementu */
+  border: 1.5px solid #333;    /* silný vnější rámeček */
+  padding: 20px;             /* vnitřní odsazení obsahu */
+  box-sizing: border-box;
+  flex: 1 1 200px;
+  max-width: 350px;
+  min-width: 300px;
+  background-color: #fff;    /* barva pozadí, která tvoří "mezeru" mezi rámečky */
+}
+
+/* Pseudo-element, který simuluje vnitřní rámeček s mezerou */
+.box::after {
+  content: "";
+  position: absolute;
+  /* Nastavíme odsazení od okrajů: 
+     8px (vnější rámeček) + 10px (žádaná mezera) = 18px */
+  top: 4px;
+  left: 4px;
+  right: 4px;
+  bottom: 4px;
+  border: 2px solid #333;  /* silný vnitřní rámeček */
+  pointer-events: none;    /* aby pseudo-element nezasahoval do interakce s obsahem */
+}
