@@ -1,0 +1,5 @@
+cs:
+  hello: "Ahoj světe!"
+
+  message_of_the_day:
+    1: "Usmívej se, zítra bude hůř. A pozítří možná vůbec nebude."
