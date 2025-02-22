@@ -29,9 +29,7 @@ test:
 # is mounted as a persistent Docker volume in config/deploy.yml.
 production:
   <<: *default
-  database: sulcino_production
-  username: sulcino
-  password: <%= ENV['SULCINO_DATABASE_PASSWORD'] %>
+  url: <%= ENV['DATABASE_URL'] %>
 
   # primary:
   #   <<: *default
@@ -44,7 +42,6 @@ production:
   #   <<: *default
   #   database: storage/production_queue.sqlite3
   #   migrations_paths: db/queue_migrate
-  # cable:
-  #   <<: *default
-  #   database: storage/production_cable.sqlite3
-  #   migrations_paths: db/cable_migrate
+  cable:
+    <<: *default
+    url: <%= ENV['DATABASE_URL'] %>
