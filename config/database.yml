@@ -34,15 +34,9 @@ production:
   cable:
     <<: *default
     url: <%= ENV['DATABASE_URL'] %>
-
-  # primary:
-  #   <<: *default
-  #   database: storage/production.sqlite3
-  # cache:
-  #   <<: *default
-  #   database: storage/production_cache.sqlite3
-  #   migrations_paths: db/cache_migrate
-  # queue:
-  #   <<: *default
-  #   database: storage/production_queue.sqlite3
-  #   migrations_paths: db/queue_migrate
+  cache:
+    <<: *default
+    url: <%= ENV['DATABASE_URL'] %>
+  queue:
+    <<: *default
+    url: <%= ENV['DATABASE_URL'] %>
