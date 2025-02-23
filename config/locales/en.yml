@@ -1,3 +1,9 @@
 en:
+  main_title: "At Bilbo Sulcino's"
+  main_message_html: >
+    I'm working hard on the website. I'm experimenting with new technologies, writing and testing rules,
+    and doing other things that help me keep the voices under control, at least most of the time.
+    But I'm making progress, taking small or big steps every day. The key is to keep moving forward.
+    Take care and be well. And <strong>never stop fighting</strong>.
   message_of_the_day:
     1: "Smile, it'll be worse tomorrow. And the day after that, it might not be at all."
