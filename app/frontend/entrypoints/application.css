@@ -9,7 +9,15 @@
  * Consider organizing styles into separate files for maintainability.
  */
 
+:root {
+  --color-primary: #441800;
+  --color-background: #ffeccb;
+  --color-background-light: #fff5e4;
+}
+
 body {
+  background-color: var(--color-background-light);
+  color: var(--color-primary);
   font-family: "JetBrains Mono", monospace;
   font-optical-sizing: auto;
   font-weight: 200;
