@@ -8,6 +8,7 @@ en:
   message_of_the_day:
     1: "Smile, it'll be worse tomorrow. And the day after that, it might not be at all."
   topbar:
+    are_you_sure_log_out: “Are you sure you want to log out?”
     czech_language: "Čeština"
     english_language: "English"
     log_in: "Log in"

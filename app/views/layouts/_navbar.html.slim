@@ -5,7 +5,10 @@ div.navbar-container
     = link_to(t("topbar.english_language"), url_for(locale: 'en'))
   div.navbar-fight
     - if user_signed_in?
-      = link_to(t("topbar.log_out"), destroy_user_session_path, method: :delete)
+      = link_to(t("topbar.log_out"),
+                destroy_user_session_path,
+                method: :delete,
+                data: { confirm: t("topbar.are_you_sure_log_out") })
     - else
       = link_to(t("topbar.sign_up"), new_user_registration_path)
       = " | "
