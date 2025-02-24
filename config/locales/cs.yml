@@ -6,3 +6,10 @@ cs:
     či velký krok, hlavně se nezastavit. Mějte se co nejlépe. A <strong>nikdy nepřestaňte bojovat</strong>.
   message_of_the_day:
     1: "Usmívej se, zítra bude hůř. A pozítří možná vůbec nebude."
+  topbar:
+    czech_language: "Čeština"
+    english_language: "English"
+    log_in: "Přihlásit"
+    log_out: "Odhlásit"
+    sign_up: "Zaregistrovat"
+    user_profile: "Profil"

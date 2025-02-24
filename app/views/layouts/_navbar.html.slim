@@ -1,4 +1,12 @@
 div.navbar-container
-  = link_to("Čeština", url_for(locale: 'cs'))
-  = " - "
-  = link_to("English", url_for(locale: 'en'))
+  div.navbar-left
+    = link_to(t("topbar.czech_language"), url_for(locale: 'cs'))
+    = " | "
+    = link_to(t("topbar.english_language"), url_for(locale: 'en'))
+  div.navbar-fight
+    - if user_signed_in?
+      = link_to(t("topbar.log_out"), destroy_user_session_path, method: :delete)
+    - else
+      = link_to(t("topbar.sign_up"), new_user_registration_path)
+      = " | "
+      = link_to(t("topbar.log_in"), new_user_session_path)

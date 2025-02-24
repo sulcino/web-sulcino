@@ -1,4 +1,7 @@
 .navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   margin: 0 0 1rem 0;
 }
 
@@ -16,31 +19,28 @@
   padding: 0.6rem 1rem 2rem 1rem;
 }
 
-/* Kontejner nastaví flexbox pro rozložení boxů vedle sebe */
 .container {
   display: flex;
   flex-wrap: wrap;
-  gap: 20px;          /* mezery mezi boxy */
+  gap: 20px;
   justify-content: center;
   padding: 0;
 }
 
-/* Box s vnějším rámečkem a vnitřním pseudo-elementem */
 .box {
   border-radius: 0.4rem;
   box-shadow: 0 0 0.3rem rgba(0, 0, 0, 0.3);
-  position: relative;        /* nutné pro absolutní umístění pseudo-elementu */
-  border: 1.5px solid #333;    /* silný vnější rámeček */
-  padding: 20px;             /* vnitřní odsazení obsahu */
+  position: relative;
+  border: 1.5px solid #333;
+  padding: 20px;
   box-sizing: border-box;
   flex: 1 1 200px;
   max-width: 600px;
   min-width: 400px;
-  z-index: 0;             /* aby byl pod obsahem */
-  background-color: #fff;    /* barva pozadí, která tvoří "mezeru" mezi rámečky */
+  z-index: 0;
+  background-color: #fff;
 }
 
-/* Pseudo-element, který simuluje vnitřní rámeček s mezerou */
 .box::before {
   border-radius: 0.2rem;
   content: "";
@@ -49,8 +49,8 @@
   left: 4px;
   right: 4px;
   bottom: 4px;
-  border: 2px solid #333;  /* silný vnitřní rámeček */
-  pointer-events: none;    /* aby pseudo-element nezasahoval do interakce s obsahem */
-  z-index: -1;             /* aby byl pod obsahem */
+  border: 2px solid #333;
+  pointer-events: none;
+  z-index: -1;
   background-color: var(--color-background-light);
 }
