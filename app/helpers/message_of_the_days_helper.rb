@@ -1,6 +1,6 @@
 module MessageOfTheDaysHelper
   def message_of_the_day_text
-    message = MessageOfTheDay.order(updated_at: :asc).offset(rand(MessageOfTheDay.count)).first
+    message = MessageOfTheDay.order(updated_at: :asc).last
     return "" if message.blank?
 
     text_method = "text_#{I18n.locale}"

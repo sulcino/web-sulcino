@@ -1,0 +1,12 @@
+p style="color: green" = notice
+
+== render @blog_post
+
+div
+  - if current_user&.admin?
+    => link_to "Edit this blog post", edit_blog_post_path(@blog_post)
+    '|
+  =< link_to "Back to blog posts", blog_posts_path
+
+  - if current_user&.admin?
+    = button_to "Destroy this blog post", @blog_post, method: :delete

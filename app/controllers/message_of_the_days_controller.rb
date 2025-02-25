@@ -68,7 +68,7 @@ class MessageOfTheDaysController < ApplicationController
     # Only allow a list of trusted parameters through.
     def message_of_the_day_params
       prms = params.expect(message_of_the_day: [ :text_en, :text_cs ])
-      prms[:user_id] = current_user.id
+      prms[:user_id] = current_user.id if prms[:message_of_the_day].blank?
       prms
     end
 end

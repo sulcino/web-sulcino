@@ -9,6 +9,7 @@ en:
     1: "Smile, it'll be worse tomorrow. And the day after that, it might not be at all."
   topbar:
     are_you_sure_log_out: “Are you sure you want to log out?”
+    blog: Blog
     czech_language: "Čs"
     edit_profile: "Profile"
     english_language: "En"

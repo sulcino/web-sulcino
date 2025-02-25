@@ -1,0 +1,19 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  text_en: MyText
+  text_cs: MyText
+  title_en: MyText
+  title_cs: MyText
+  preview_text_en: MyText
+  preview_text_cs: MyText
+  user: one
+
+two:
+  text_en: MyText
+  text_cs: MyText
+  title_en: MyText
+  title_cs: MyText
+  preview_text_en: MyText
+  preview_text_cs: MyText
+  user: two

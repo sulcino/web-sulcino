@@ -1,0 +1,11 @@
+p style="color: green" = notice
+
+h1 Blog posts
+
+#blog_posts
+- @blog_posts.each do |blog_post|
+    == render(partial: "blog_post_preview", locals: { blog_post: blog_post })
+    p
+      = link_to "Show this blog post", blog_post
+
+= link_to "New blog post", new_blog_post_path

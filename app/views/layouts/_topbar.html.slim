@@ -4,12 +4,16 @@ div.topbar-container
       = link_to(t("topbar.czech_language"), url_for(locale: 'cs'))
       = " | "
       = link_to(t("topbar.english_language"), url_for(locale: 'en'))
+
   div.topbar-middle
     strong
       = link_to(t("topbar.home"), root_path)
       - if @current_user&.admin?
         = " | "
         = link_to(t("topbar.message_of_the_day"), message_of_the_days_path)
+      = " | "
+      = link_to(t("topbar.blog"), blog_posts_path)
+
   div.topbar-right
     - if user_signed_in?
       small

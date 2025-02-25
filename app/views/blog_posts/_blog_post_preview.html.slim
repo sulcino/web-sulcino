@@ -1,0 +1,7 @@
+div id="#{dom_id blog_post}"
+  hr
+
+  h3 = blog_post.title
+
+  div.blog-text
+    =< blog_post.rendered_preview_text

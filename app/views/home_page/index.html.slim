@@ -5,6 +5,15 @@ h2 Stay Tuned
 h4 = message_of_the_day_text
 
 div.preview-container
+  - if @last_blog_posts.present?
+    = link_to(blog_post_path(@last_blog_posts.first), class: "preview-box") do
+      h5 = @last_blog_posts.first.title
+      p = @last_blog_posts.first.rendered_preview_text
+  - if @last_blog_posts.length > 1
+    = link_to(blog_post_path(@last_blog_posts.first), class: "preview-box") do
+      h5 = @last_blog_posts.last.title
+      p = @last_blog_posts.last.rendered_preview_text
+
   div.preview-box
     h5 Legend: Don't be&nbsp;Affraid of Power
     p Unique RPG system; universal and allowing very powerful player characters.
@@ -12,6 +21,3 @@ div.preview-container
   div.preview-box
     h5 Worlds
     p Worlds for the game Legend. Still under development.
-  div.preview-box
-    h5 Other Projects
-    p Our other projects.

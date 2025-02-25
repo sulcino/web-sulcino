@@ -28,17 +28,20 @@
 }
 
 .preview-box {
+  background-color: #fff;
+  border: 1.5px solid #333;
   border-radius: 0.4rem;
   box-shadow: 0 0 0.3rem rgba(0, 0, 0, 0.3);
-  position: relative;
-  border: 1.5px solid #333;
-  padding: 20px;
   box-sizing: border-box;
-  flex: 1 1 200px;
+  flex: 1 1 0;
   max-width: 600px;
   min-width: 400px;
+  padding: 20px;
+  position: relative;
   z-index: 0;
-  background-color: #fff;
+  /* display: block; */
+  text-decoration: none;
+  color: inherit;
 }
 
 .preview-box::before {
@@ -53,4 +56,13 @@
   pointer-events: none;
   z-index: -1;
   background-color: var(--color-background-light);
+}
+
+a.preview-box:hover {
+  background-color: var(--color-hover);
+  box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.4);
+}
+
+a.preview-box:hover::before {
+  background-color: var(--color-background-lighter);
 }

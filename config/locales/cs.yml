@@ -8,6 +8,7 @@ cs:
     1: "Usmívej se, zítra bude hůř. A pozítří možná vůbec nebude."
   topbar:
     are_you_sure_log_out: "Opravdu se chceš odhlásit?"
+    blog: Blog
     czech_language: "Čs"
     edit_profile: "Profil"
     english_language: "En"

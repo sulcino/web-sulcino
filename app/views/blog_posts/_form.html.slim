@@ -1,0 +1,34 @@
+= form_with(model: blog_post) do |form|
+  - if blog_post.errors.any?
+    div style="color: red"
+      h2 = "#{pluralize(blog_post.errors.count, "error")} prohibited this blog_post from being saved:"
+      ul
+        - blog_post.errors.each do |error|
+          li = error.full_message
+
+  div
+    = form.label :title_en, style: "display: block"
+    = form.textarea :title_en
+
+  div
+    = form.label :preview_text_en, style: "display: block"
+    = form.textarea :preview_text_en
+
+  div
+    = form.label :text_en, style: "display: block"
+    = form.textarea :text_en
+
+  div
+    = form.label :title_cs, style: "display: block"
+    = form.textarea :title_cs
+
+  div
+    = form.label :preview_text_cs, style: "display: block"
+    = form.textarea :preview_text_cs
+
+  div
+    = form.label :text_cs, style: "display: block"
+    = form.textarea :text_cs
+
+  div
+    = form.submit
