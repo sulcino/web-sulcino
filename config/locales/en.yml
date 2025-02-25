@@ -9,9 +9,11 @@ en:
     1: "Smile, it'll be worse tomorrow. And the day after that, it might not be at all."
   topbar:
     are_you_sure_log_out: “Are you sure you want to log out?”
-    czech_language: "Čeština"
-    english_language: "English"
+    czech_language: "Čs"
+    edit_profile: "Profile"
+    english_language: "En"
     log_in: "Log in"
     log_out: "Log out"
+    message_of_the_day: "MotD"
     sign_up: "Sign up"
     user_profile: "Profile"

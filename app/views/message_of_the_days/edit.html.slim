@@ -1,0 +1,10 @@
+h1 Editing message of the day
+
+== render "form", message_of_the_day: @message_of_the_day
+
+br
+
+div
+  => link_to "Show this message of the day", @message_of_the_day
+  '|
+  =< link_to "Back to message of the days", message_of_the_days_path

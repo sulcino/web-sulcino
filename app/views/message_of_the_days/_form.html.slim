@@ -1,0 +1,18 @@
+= form_with(model: message_of_the_day) do |form|
+  - if message_of_the_day.errors.any?
+    div style="color: red"
+      h2 = "#{pluralize(message_of_the_day.errors.count, "error")} prohibited this message_of_the_day from being saved:"
+      ul
+        - message_of_the_day.errors.each do |error|
+          li = error.full_message
+
+  div
+    = form.label :text_en, style: "display: block"
+    = form.textarea :text_en
+
+  div
+    = form.label :text_cs, style: "display: block"
+    = form.textarea :text_cs
+
+  div
+    = form.submit

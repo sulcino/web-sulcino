@@ -8,9 +8,11 @@ cs:
     1: "Usmívej se, zítra bude hůř. A pozítří možná vůbec nebude."
   topbar:
     are_you_sure_log_out: "Opravdu se chceš odhlásit?"
-    czech_language: "Čeština"
-    english_language: "English"
+    czech_language: "Čs"
+    edit_profile: "Profil"
+    english_language: "En"
     log_in: "Přihlásit"
     log_out: "Odhlásit"
+    message_of_the_day: "MotD"
     sign_up: "Zaregistrovat"
     user_profile: "Profil"

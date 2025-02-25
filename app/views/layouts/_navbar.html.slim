@@ -1,15 +1,26 @@
-div.navbar-container
-  div.navbar-left
-    = link_to(t("topbar.czech_language"), url_for(locale: 'cs'))
-    = " | "
-    = link_to(t("topbar.english_language"), url_for(locale: 'en'))
-  div.navbar-fight
-    - if user_signed_in?
-      = link_to(t("topbar.log_out"),
-                destroy_user_session_path,
-                method: :delete,
-                data: { confirm: t("topbar.are_you_sure_log_out") })
-    - else
-      = link_to(t("topbar.sign_up"), new_user_registration_path)
+div.topbar-container
+  div.topbar-left
+    small
+      = link_to(t("topbar.czech_language"), url_for(locale: 'cs'))
       = " | "
-      = link_to(t("topbar.log_in"), new_user_session_path)
+      = link_to(t("topbar.english_language"), url_for(locale: 'en'))
+  div.topbar-middle
+    strong
+      = link_to(t("topbar.home"), root_path)
+      - if @current_user&.admin?
+        = " | "
+        = link_to(t("topbar.message_of_the_day"), message_of_the_days_path)
+  div.topbar-right
+    - if user_signed_in?
+      small
+        = link_to(t('topbar.edit_profile'), edit_user_registration_path)
+        = " | "
+        = link_to(t("topbar.log_out"),
+                  destroy_user_session_path,
+                  method: :delete,
+                  data: { confirm: t("topbar.are_you_sure_log_out") })
+    - else
+      small
+        = link_to(t("topbar.sign_up"), new_user_registration_path)
+        = " | "
+        = link_to(t("topbar.log_in"), new_user_session_path)

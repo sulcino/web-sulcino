@@ -1,0 +1,10 @@
+p style="color: green" = notice
+
+== render @message_of_the_day
+
+div
+  => link_to "Edit this message of the day", edit_message_of_the_day_path(@message_of_the_day)
+  '|
+  =< link_to "Back to message of the days", message_of_the_days_path
+
+  = button_to "Destroy this message of the day", @message_of_the_day, method: :delete
