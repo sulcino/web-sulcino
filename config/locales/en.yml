@@ -1,4 +1,10 @@
 en:
+  time:
+    formats:
+      default: "%Y-%m-%d %H:%M:%S"
+      default_date: "%Y-%m-%d"
+      short: "%d %b %H:%M"
+
   main_title: "At Bilbo Sulcino's"
   main_message_html: >
     I'm working hard on the website. I'm experimenting with new technologies, writing and testing rules,

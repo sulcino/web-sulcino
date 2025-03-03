@@ -1,7 +1,6 @@
 p style="color: green" = notice
 
-div.blog-post-container
-  == render @blog_post
+== render @blog_post
 
 div
   - if current_user&.admin?

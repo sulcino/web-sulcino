@@ -1,4 +1,5 @@
 div.blog-post-preview id="#{dom_id blog_post}"
+  time = l(blog_post.updated_at, format: :default_date)
   h3 = blog_post.title
 
   div.blog-text

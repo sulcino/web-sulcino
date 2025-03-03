@@ -1,4 +1,10 @@
 cs:
+  time:
+    formats:
+      default: "%Y-%m-%d %H:%M:%S"
+      default_date: "%Y-%m-%d"
+      short: "%d %b %H:%M"
+
   main_title: "U Bilba \"Sulcino\" Kořínka"
   main_message_html: >
     Na stránkách usilovně pracuji. Zkouším nové technologi, píši a testuji pravidla, a dělám další věci,
