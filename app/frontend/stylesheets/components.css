@@ -11,8 +11,6 @@
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
-  /* flex-wrap: wrap; */
-  /* gap: 0.2rem; */
   justify-content: center;
   margin: 0 auto;
   max-width: 1200px;
@@ -39,7 +37,6 @@
   padding: 20px;
   position: relative;
   z-index: 0;
-  /* display: block; */
   text-decoration: none;
   color: inherit;
 }
@@ -65,4 +62,22 @@ a.preview-box:hover {
 
 a.preview-box:hover::before {
   background-color: var(--color-background-lighter);
+}
+
+.blog-post-container hr {
+  margin: 3em auto 3em 2em;
+  width: 10em;
+}
+
+.blog-post-preview {
+  border: 1px dashed var(--color-primary-light);
+  border-radius: 0.5em;
+  margin-bottom: 1em;
+  padding: 0.7em;
+  position: relative;
+}
+
+.blog-post-preview:hover {
+  background-color: var(--color-background-light);
+  border: 1px solid var(--color-primary-medium);
 }

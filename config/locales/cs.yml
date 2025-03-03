@@ -6,6 +6,9 @@ cs:
     či velký krok, hlavně se nezastavit. Mějte se co nejlépe. A <strong>nikdy nepřestaňte bojovat</strong>.
   message_of_the_day:
     1: "Usmívej se, zítra bude hůř. A pozítří možná vůbec nebude."
+  blog:
+    buttons:
+      new_post: Nový příspěvek
   topbar:
     are_you_sure_log_out: "Opravdu se chceš odhlásit?"
     blog: Blog

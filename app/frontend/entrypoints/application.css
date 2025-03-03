@@ -1,5 +1,7 @@
 :root {
   --color-primary: #441800;
+  --color-primary-medium: #d1875f;
+  --color-primary-light: #e8b193;
   --color-background: #ffeccb;
   --color-background-light: #fff5e4;
   --color-background-lighter: #fff9ed;
@@ -67,4 +69,35 @@ h6:first-child {
 
 p {
   margin-top: 0;
+}
+
+a {
+  background-color: var(--color-background-lighter);
+  border-radius: 0.25em;
+  padding: 0 0.3em;
+  color: var(--color-primary-medium);
+  text-decoration: none;
+}
+
+a:not(.link-overlay):hover {
+  background-color: var(--color-primary);
+}
+
+.link-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+  background: transparent;
+}
+
+hr {
+  border: none;
+  border-top: 1.5px dashed var(--color-primary-medium);
+  margin: 20px auto;
+  overflow: visible;
+  position: relative;
+  width: 100%;
 }

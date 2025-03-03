@@ -1,7 +1,7 @@
-div id="#{dom_id blog_post}"
-  hr
-
+div.blog-post-preview id="#{dom_id blog_post}"
   h3 = blog_post.title
 
   div.blog-text
     =< blog_post.rendered_preview_text
+  = link_to(blog_post, class: "link-overlay") do
+    |

@@ -10,7 +10,7 @@ div.preview-container
       h5 = @last_blog_posts.first.title
       p = @last_blog_posts.first.rendered_preview_text
   - if @last_blog_posts.length > 1
-    = link_to(blog_post_path(@last_blog_posts.first), class: "preview-box") do
+    = link_to(blog_post_path(@last_blog_posts.last), class: "preview-box") do
       h5 = @last_blog_posts.last.title
       p = @last_blog_posts.last.rendered_preview_text
 

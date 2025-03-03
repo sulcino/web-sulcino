@@ -7,6 +7,9 @@ en:
     Take care and be well. And <strong>never stop fighting</strong>.
   message_of_the_day:
     1: "Smile, it'll be worse tomorrow. And the day after that, it might not be at all."
+  blog:
+    buttons:
+      new_post: New blog post
   topbar:
     are_you_sure_log_out: “Are you sure you want to log out?”
     blog: Blog
