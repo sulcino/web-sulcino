@@ -14,10 +14,9 @@ div.preview-container
       h5 = @last_blog_posts.last.title
       p = @last_blog_posts.last.rendered_preview_text
 
+  = link_to(legend_index_path, class: "preview-box") do
+    h5 = t("legend.preview.title").html_safe
+    p = t("legend.preview.description_html")
   div.preview-box
-    h5 Legend: Don't be&nbsp;Affraid of Power
-    p Unique RPG system; universal and allowing very powerful player characters.
-    p Work in Progress
-  div.preview-box
-    h5 Worlds
-    p Worlds for the game Legend. Still under development.
+    h5 = t("reloading.preview.title").html_safe
+    p = t("reloading.preview.description_html")

@@ -8,7 +8,7 @@ div.topbar-container
   div.topbar-middle
     strong
       = link_to(t("topbar.home"), root_path)
-      - if @current_user&.admin?
+      - if current_user&.admin?
         = " | "
         = link_to(t("topbar.message_of_the_day"), message_of_the_days_path)
       = " | "

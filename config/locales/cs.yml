@@ -5,6 +5,20 @@ cs:
       default_date: "%Y-%m-%d"
       short: "%d %b %H:%M"
 
+  blog:
+    buttons:
+      new_post: Nový příspěvek
+
+  legend:
+    preview:
+      title: "Legenda: Neboj se moci"
+      description_html: >-
+        RPG systém navržený tak, aby nebyl složitý, dával hráčům volnost a umožňoval tvorbu velmi 
+        silných hráčských postav.
+        <hr>
+        Ve vývoji
+    title: "Legenda: Neboj se moci"
+
   main_title: "U Bilba \"Sulcino\" Kořínka"
   main_message_html: >
     Na stránkách usilovně pracuji. Zkouším nové technologi, píši a testuji pravidla, a dělám další věci,
@@ -12,9 +26,15 @@ cs:
     či velký krok, hlavně se nezastavit. Mějte se co nejlépe. A <strong>nikdy nepřestaňte bojovat</strong>.
   message_of_the_day:
     1: "Usmívej se, zítra bude hůř. A pozítří možná vůbec nebude."
-  blog:
-    buttons:
-      new_post: Nový příspěvek
+
+  reloading:
+    preview:
+      title: "Legenda: Reloading..."
+      description_html: >-
+        Příběhová hra ze cyberpunkového světa, postavené na systému Legenda: Neboj se moci.
+        <hr>
+        Ve vývoji
+
   topbar:
     are_you_sure_log_out: "Opravdu se chceš odhlásit?"
     blog: Blog

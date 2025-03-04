@@ -15,5 +15,9 @@ Rails.application.routes.draw do
 
     # Defines the root path route ("/")
     root "home_page#index"
+
+    # Legend
+    get "legend", to: "legend#index", as: "legend_index"
+    get "legend/:chapter/:section", to: "legend#show", as: "legend"
   end
 end
