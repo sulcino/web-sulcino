@@ -1,0 +1,13 @@
+.tag-filter
+  = form_with url: blog_posts_path, method: :get, data: { turbo_frame: "blog_posts" } do |form|
+    .tags
+      - @tags.each do |tag|
+        .tag
+          = check_box_tag 'tag_ids[]', tag.id, @selected_tag_ids.include?(tag.id),
+                        id: "tag_#{tag.id}",
+                        data: { action: "change->turbo-form#submit" }
+          = label_tag "tag_#{tag.id}", tag.name
+
+    - unless @selected_tag_ids.empty?
+      .clear-filters
+        = link_to "Clear filters", blog_posts_path, data: { turbo_frame: "blog_posts" }

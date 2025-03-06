@@ -26,7 +26,11 @@ en:
     But I'm making progress, taking small or big steps every day. The key is to keep moving forward.
     Take care and be well. And <strong>never stop fighting</strong>.
   message_of_the_day:
-    1: "Smile, it'll be worse tomorrow. And the day after that, it might not be at all."
+    buttons:
+      destroy: "Delete"
+      edit: "Edit"
+      list: "List"
+      new: "Create message"
 
   reloading:
     preview:
@@ -46,4 +50,5 @@ en:
     log_out: "Log out"
     message_of_the_day: "MotD"
     sign_up: "Sign up"
+    tags: Tags
     user_profile: "Profile"

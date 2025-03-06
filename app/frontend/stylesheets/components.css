@@ -55,6 +55,16 @@
   background-color: var(--color-background-light);
 }
 
+.tag-filter {
+  margin-bottom: 1em;
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5em;
+}
+
 a.preview-box:hover {
   background-color: var(--color-hover);
   box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.4);

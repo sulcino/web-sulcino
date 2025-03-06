@@ -2,9 +2,17 @@ p style="color: green" = notice
 
 h1 Blog posts
 
-#blog_posts
-- @blog_posts.each do |blog_post|
-    == render(partial: "blog_post_preview", locals: { blog_post: blog_post })
+.blog-container data-controller="turbo-form"
+  .filter-sidebar
+    == render "tag_filter"
+
+  .blog-posts-list
+    = turbo_frame_tag "blog_posts" do
+      - if @blog_posts.any?
+        - @blog_posts.each do |blog_post|
+          == render(partial: "blog_post_preview", locals: { blog_post: blog_post })
+      - else
+        p No blog posts match the selected filters
 
 - if current_user&.admin?
-  = link_to(t("blog.buttons.new_post"), new_blog_post_path)
+  div = link_to(t("blog.buttons.new_post", default: "New blog post"), new_blog_post_path)

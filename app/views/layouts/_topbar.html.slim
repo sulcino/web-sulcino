@@ -11,6 +11,8 @@ div.topbar-container
       - if current_user&.admin?
         = " | "
         = link_to(t("topbar.message_of_the_day"), message_of_the_days_path)
+        = " | "
+        = link_to(t("topbar.tags"), tags_path)
       = " | "
       = link_to(t("topbar.blog"), blog_posts_path)
 

@@ -25,7 +25,11 @@ cs:
     které mi pomáhají držen hlasy pod kontrolou, alespoň po většinu času. Ale postupuji, každý den o malý
     či velký krok, hlavně se nezastavit. Mějte se co nejlépe. A <strong>nikdy nepřestaňte bojovat</strong>.
   message_of_the_day:
-    1: "Usmívej se, zítra bude hůř. A pozítří možná vůbec nebude."
+    buttons:
+      destroy: "Smazat"
+      edit: "Upravit"
+      list: "Seznam"
+      new: "Vytvořit zprávu"
 
   reloading:
     preview:
@@ -45,4 +49,5 @@ cs:
     log_out: "Odhlásit"
     message_of_the_day: "MotD"
     sign_up: "Zaregistrovat"
+    tags: Tagy
     user_profile: "Profil"

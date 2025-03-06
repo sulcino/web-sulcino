@@ -9,4 +9,8 @@ div
   =< link_to "Back to blog posts", blog_posts_path
 
   - if current_user&.admin?
-    = button_to "Destroy this blog post", @blog_post, method: :delete
+    = ' | '
+    = button_to "Destroy this blog post", @blog_post,
+                method: :delete,
+                class: "basic-link",
+                form: { style: "display: inline-block;" }

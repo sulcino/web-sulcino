@@ -3,25 +3,35 @@ class BlogPostsController < ApplicationController
 
   load_and_authorize_resource
 
-  # GET /blog_posts or /blog_posts.json
   def index
-    @blog_posts = BlogPost.all.order(updated_at: :desc)
+    @tags = Tag.all
+    @selected_tag_ids = []
+
+    if params[:tag_ids].present?
+      @selected_tag_ids = params[:tag_ids].map(&:to_i).reject(&:zero?)
+    end
+
+    @blog_posts = if @selected_tag_ids.any?
+      # Find posts that have ALL selected tags
+      BlogPost.joins(:tags)
+              .where(tags: { id: @selected_tag_ids })
+              .group("blog_posts.id")
+              .having("COUNT(DISTINCT tags.id) = ?", @selected_tag_ids.size)
+    else
+      BlogPost.all
+    end
   end
 
-  # GET /blog_posts/1 or /blog_posts/1.json
   def show
   end
 
-  # GET /blog_posts/new
   def new
     @blog_post = BlogPost.new(user: current_user)
   end
 
-  # GET /blog_posts/1/edit
   def edit
   end
 
-  # POST /blog_posts or /blog_posts.json
   def create
     @blog_post = BlogPost.new(blog_post_params)
 
@@ -36,7 +46,6 @@ class BlogPostsController < ApplicationController
     end
   end
 
-  # PATCH/PUT /blog_posts/1 or /blog_posts/1.json
   def update
     respond_to do |format|
       if @blog_post.update(blog_post_params)
@@ -49,7 +58,6 @@ class BlogPostsController < ApplicationController
     end
   end
 
-  # DELETE /blog_posts/1 or /blog_posts/1.json
   def destroy
     @blog_post.destroy!
 
@@ -65,7 +73,10 @@ class BlogPostsController < ApplicationController
     end
 
     def blog_post_params
-      prms = params.expect(blog_post: [ :text_en, :text_cs, :title_en, :title_cs, :preview_text_en, :preview_text_cs, :user_id ])
+      prms = params.expect(blog_post: [ :text_en, :text_cs,
+                                        :title_en, :title_cs,
+                                        :preview_text_en, :preview_text_cs,
+                                        :user_id, tag_ids: [] ])
       prms[:user_id] = current_user.id if prms[:user_id].blank?
       prms
     end

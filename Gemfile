@@ -36,6 +36,8 @@ gem "thruster", require: false
 
 gem "vite_rails"
 
+gem "turbo-rails"
+
 gem "slim-rails"
 
 gem "devise"

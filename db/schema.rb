@@ -10,9 +10,19 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[8.0].define(version: 2025_02_25_125603) do
+ActiveRecord::Schema[8.0].define(version: 2025_03_05_194721) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "pg_catalog.plpgsql"
+
+  create_table "blog_post_tags", force: :cascade do |t|
+    t.bigint "blog_post_id", null: false
+    t.bigint "tag_id", null: false
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["blog_post_id", "tag_id"], name: "index_blog_post_tags_on_blog_post_id_and_tag_id", unique: true
+    t.index ["blog_post_id"], name: "index_blog_post_tags_on_blog_post_id"
+    t.index ["tag_id"], name: "index_blog_post_tags_on_tag_id"
+  end
 
   create_table "blog_posts", force: :cascade do |t|
     t.text "text_en"
@@ -46,6 +56,13 @@ ActiveRecord::Schema[8.0].define(version: 2025_02_25_125603) do
     t.index ["resource_type", "resource_id"], name: "index_roles_on_resource"
   end
 
+  create_table "tags", force: :cascade do |t|
+    t.string "name"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["name"], name: "index_tags_on_name", unique: true
+  end
+
   create_table "users", force: :cascade do |t|
     t.string "email", default: "", null: false
     t.string "encrypted_password", default: "", null: false
@@ -71,6 +88,8 @@ ActiveRecord::Schema[8.0].define(version: 2025_02_25_125603) do
     t.index ["user_id"], name: "index_users_roles_on_user_id"
   end
 
+  add_foreign_key "blog_post_tags", "blog_posts"
+  add_foreign_key "blog_post_tags", "tags"
   add_foreign_key "blog_posts", "users"
   add_foreign_key "message_of_the_days", "users"
 end

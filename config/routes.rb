@@ -19,5 +19,7 @@ Rails.application.routes.draw do
     # Legend
     get "legend", to: "legend#index", as: "legend_index"
     get "legend/:chapter/:section", to: "legend#show", as: "legend"
+
+    resources :tags
   end
 end
