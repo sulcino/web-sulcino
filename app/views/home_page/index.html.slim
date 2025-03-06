@@ -20,3 +20,7 @@ div.preview-container
   div.preview-box
     h5 = t("reloading.preview.title").html_safe
     p = t("reloading.preview.description_html")
+
+  = link_to(root_path, class: "preview-box") do
+    h5 = t("contacts.preview.title").html_safe
+    = t("contacts.preview.description_html")

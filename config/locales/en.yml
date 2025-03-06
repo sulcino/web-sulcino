@@ -11,6 +11,18 @@ en:
     tags:
       clear_filter: Clear filter
 
+  contacts:
+    preview:
+      title: Contacts
+      description_html: >
+        <p>
+        If you have any questions, gig or business offers, or just want to say hello, feel free to contact me.
+        I'd be happy to hear from you.<hr>
+        <strong>David Rak</strong><br>
+        mobil, whatsapp, signal, apple: <strong>777 001 093</strong><br>
+        e-mail: <strong>sulcino@gmail.com</strong> or <strong> rakdavid@icloud.com</strong>
+        </p>
+
   legend:
     preview:
       title: "Legend: Don't be&nbsp;Afraid of&nbsp;Power"

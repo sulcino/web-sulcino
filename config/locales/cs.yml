@@ -11,6 +11,18 @@ cs:
     tags:
       clear_filter: Vymazat filtr
 
+  contacts:
+    preview:
+      title: Kontakt
+      description_html: >
+        <p>
+        Pokud máte nějaké dotazy, nabídky na spolupráci nebo jen chcete pozdravit, neváhejte mě kontaktovat.
+        Budu rád, když se ozvete.<hr>
+        <strong>David Rak</strong><br>
+        mobil, whatsapp, signal, apple: <strong>777 001 093</strong><br>
+        e-mail: <strong>sulcino@gmail.com</strong> nebo <strong> rakdavid@icloud.com</strong>
+        </p>
+
   legend:
     preview:
       title: "Legenda: Neboj se moci"
