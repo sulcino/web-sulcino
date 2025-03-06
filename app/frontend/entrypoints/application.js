@@ -29,6 +29,34 @@ import Rails from '@rails/ujs';
 Rails.start();
 
 import '~/entrypoints/application.css'
+import '~/stylesheets/blog_posts.css'
 import '~/stylesheets/components.css'
+import '~/stylesheets/modal.css'
 
 import "~/controllers"
+
+document.addEventListener('turbo:load', () => {
+  const modal = document.getElementById('contactModal');
+  if (!modal) return;
+  const openModalLinks = document.querySelectorAll('[data-toggle="modal"]');
+  const closeButtons = modal.querySelectorAll('[data-dismiss="modal"]');
+
+  openModalLinks.forEach(link => {
+    link.addEventListener('click', (e) => {
+      e.preventDefault();
+      modal.classList.add('active');
+    });
+  });
+
+  closeButtons.forEach(btn => {
+    btn.addEventListener('click', () => {
+      modal.classList.remove('active');
+    });
+  });
+
+  modal.addEventListener('click', (e) => {
+    if (!e.target.closest('.modal-content')) {
+      modal.classList.remove('active');
+    }
+  });
+});

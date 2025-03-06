@@ -1,6 +1,6 @@
 p style="color: green" = notice
 
-h1 Blog posts
+h1 = t("blog.title", default: "Blog")
 
 = turbo_frame_tag "blog_posts" do
   .blog-container data-controller="turbo-form"
@@ -12,7 +12,7 @@ h1 Blog posts
         - @blog_posts.each do |blog_post|
           == render(partial: "blog_post_preview", locals: { blog_post: blog_post })
       - else
-        p No blog posts match the selected filters
+        p = t("blog.no_matching_posts", default: "No blog posts found")
 
 - if current_user&.admin?
   div = link_to(t("blog.buttons.new_post", default: "New blog post"), new_blog_post_path)

@@ -1,10 +1,10 @@
-h1 Editing blog post
+h1 = t("blog.edit.title")
 
-== render "form", blog_post: @blog_post
+div.edit-blog-post == render "form", blog_post: @blog_post
 
 br
 
 div
-  => link_to "Show this blog post", @blog_post
+  => link_to(t("blog.buttons.show_post"), @blog_post)
   '|
-  =< link_to "Back to blog posts", blog_posts_path
+  =< link_to(t("blog.buttons.list"), blog_posts_path)

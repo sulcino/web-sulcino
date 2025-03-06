@@ -83,12 +83,6 @@
   margin-bottom: 1em;
 }
 
-.tags {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.5em;
-}
-
 a.preview-box:hover {
   background-color: var(--color-hover);
   box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.4);
@@ -114,4 +108,9 @@ a.preview-box:hover::before {
 .blog-post-preview:hover {
   background-color: var(--color-background-light);
   border: 1px solid var(--color-primary-medium);
+}
+
+.edit-blog-post textarea {
+  min-height: 6em;
+  width: 100%;
 }

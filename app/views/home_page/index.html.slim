@@ -1,6 +1,5 @@
 h1 = t('main_title')
 p = t('main_message_html')
-h2 Stay Tuned
 
 h4 = message_of_the_day_text
 
@@ -17,10 +16,20 @@ div.preview-container
   = link_to(legend_index_path, class: "preview-box") do
     h5 = t("legend.preview.title").html_safe
     p = t("legend.preview.description_html")
+
   div.preview-box
     h5 = t("reloading.preview.title").html_safe
     p = t("reloading.preview.description_html")
 
-  = link_to(root_path, class: "preview-box") do
-    h5 = t("contacts.preview.title").html_safe
-    = t("contacts.preview.description_html")
+  = link_to("#", class: "preview-box", data: { toggle: "modal", target: "#contactModal" }) do
+    h5 = t("contacts.title").html_safe
+    = t("contacts.description_html")
+
+div.modal#contactModal(tabindex="-1" role="dialog" aria-labelledby="contactModalLabel" aria-hidden="true")
+  div.modal-dialog
+    div.modal-content
+      div.modal-header
+        h5.modal-title#contactModalLabel = t("contacts.title")
+        span.close-button(data-dismiss="modal") &times;
+      div.modal-body
+        = t("contacts.contacts_html")

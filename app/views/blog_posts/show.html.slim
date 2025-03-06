@@ -4,13 +4,13 @@ p style="color: green" = notice
 
 div
   - if current_user&.admin?
-    => link_to "Edit this blog post", edit_blog_post_path(@blog_post)
+    => link_to(t("blog.buttons.edit"), edit_blog_post_path(@blog_post))
     '|
-  =< link_to "Back to blog posts", blog_posts_path
+  =< link_to(t("blog.buttons.list"), blog_posts_path)
 
   - if current_user&.admin?
     = ' | '
-    = button_to "Destroy this blog post", @blog_post,
+    = button_to(t("blog.buttons.destroy"), @blog_post,
                 method: :delete,
                 class: "basic-link",
-                form: { style: "display: inline-block;" }
+                form: { style: "display: inline-block;" })

@@ -1,6 +1,6 @@
 - selected_ids = @selected_tag_ids || []
 .tag-filter
-  h3 = t('blog.filter_by_tags', default: 'Filter by Tags')
+  h6 = t('blog.filter_by_tags', default: 'Tags')
   .tags
     - @tags.each do |tag|
       - new_ids = selected_ids.include?(tag.id) ? (selected_ids - [tag.id]) : (selected_ids + [tag.id])

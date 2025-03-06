@@ -7,21 +7,32 @@ en:
 
   blog:
     buttons:
+      destroy: "Delete"
+      edit: "Edit"
+      list: "Posts"
       new_post: New blog post
+      show_post: Show post
+    edit:
+      title: "Edit blog post"
+    no_matching_posts: "No posts match the selected tags."
     tags:
       clear_filter: Clear filter
+    title: Blog
 
   contacts:
-    preview:
-      title: Contacts
-      description_html: >
-        <p>
-        If you have any questions, gig or business offers, or just want to say hello, feel free to contact me.
-        I'd be happy to hear from you.<hr>
-        <strong>David Rak</strong><br>
-        mobil, whatsapp, signal, apple: <strong>777 001 093</strong><br>
-        e-mail: <strong>sulcino@gmail.com</strong> or <strong> rakdavid@icloud.com</strong>
-        </p>
+    title: Contacts
+    contacts_html: >-
+      <p>
+      <strong>David Rak</strong><br>
+      mobil, whatsapp, signal, apple: <strong>777 001 093</strong><br>
+      e-mail: <strong>sulcino@gmail.com</strong> or <strong> rakdavid@icloud.com</strong><br>
+      discord: <strong>sulcino#0106</strong>
+      </p>
+    description_html: >-
+      <p>
+      If you have any questions, gig or business offers, or just want to say hello, feel free to contact me.
+      I'd be happy to hear from you.
+      </p>
 
   legend:
     preview:
@@ -56,13 +67,14 @@ en:
 
   topbar:
     are_you_sure_log_out: “Are you sure you want to log out?”
-    blog: Blog
+    blog: "Blog"
     czech_language: "Čs"
     edit_profile: "Profile"
     english_language: "En"
+    home: "Home"
     log_in: "Log in"
     log_out: "Log out"
     message_of_the_day: "MotD"
     sign_up: "Sign up"
-    tags: Tags
+    tags: "Tags"
     user_profile: "Profile"
