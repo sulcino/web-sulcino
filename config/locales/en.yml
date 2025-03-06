@@ -8,6 +8,8 @@ en:
   blog:
     buttons:
       new_post: New blog post
+    tags:
+      clear_filter: Clear filter
 
   legend:
     preview:

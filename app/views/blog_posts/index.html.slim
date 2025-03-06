@@ -2,12 +2,12 @@ p style="color: green" = notice
 
 h1 Blog posts
 
-.blog-container data-controller="turbo-form"
-  .filter-sidebar
-    == render "tag_filter"
+= turbo_frame_tag "blog_posts" do
+  .blog-container data-controller="turbo-form"
+    .filter-sidebar
+      == render "tag_filter"
 
-  .blog-posts-list
-    = turbo_frame_tag "blog_posts" do
+    .blog-posts-list
       - if @blog_posts.any?
         - @blog_posts.each do |blog_post|
           == render(partial: "blog_post_preview", locals: { blog_post: blog_post })

@@ -8,6 +8,8 @@ cs:
   blog:
     buttons:
       new_post: Nový příspěvek
+    tags:
+      clear_filter: Vymazat filtr
 
   legend:
     preview:

@@ -4,5 +4,5 @@ div.blog-post-preview id="#{dom_id blog_post}"
 
   div.blog-text
     =< blog_post.rendered_preview_text
-  = link_to(blog_post, class: "link-overlay") do
+  = link_to(blog_post, class: "link-overlay", data: { turbo_frame: "_top" }) do
     |

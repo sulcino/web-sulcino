@@ -105,7 +105,6 @@ a:hover {
 
 .basic-link:hover {
   background-color: var(--color-primary);
-  /* color: var(--color-background-light); */
 }
 
 .link-overlay {

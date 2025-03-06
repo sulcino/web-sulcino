@@ -1,13 +1,12 @@
+- selected_ids = @selected_tag_ids || []
 .tag-filter
-  = form_with url: blog_posts_path, method: :get, data: { turbo_frame: "blog_posts" } do |form|
-    .tags
-      - @tags.each do |tag|
-        .tag
-          = check_box_tag 'tag_ids[]', tag.id, @selected_tag_ids.include?(tag.id),
-                        id: "tag_#{tag.id}",
-                        data: { action: "change->turbo-form#submit" }
-          = label_tag "tag_#{tag.id}", tag.name
-
-    - unless @selected_tag_ids.empty?
-      .clear-filters
-        = link_to "Clear filters", blog_posts_path, data: { turbo_frame: "blog_posts" }
+  h3 = t('blog.filter_by_tags', default: 'Filter by Tags')
+  .tags
+    - @tags.each do |tag|
+      - new_ids = selected_ids.include?(tag.id) ? (selected_ids - [tag.id]) : (selected_ids + [tag.id])
+      = link_to tag.name, blog_posts_path(tag_ids: new_ids.presence),
+          class: "tag#{' active' if selected_ids.include?(tag.id)}",
+          data: { turbo_frame: "blog_posts" }
+  - if selected_ids.any?
+    .clear-filter
+      = link_to t("blog.tags.clear_filter"), blog_posts_path, data: { turbo_frame: "blog_posts" }
