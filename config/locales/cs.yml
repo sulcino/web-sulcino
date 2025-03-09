@@ -36,7 +36,8 @@ cs:
       </p>
 
   images:
-    save: "Uložit"
+    buttons:
+      save: "Uložit"
 
   legend:
     preview:

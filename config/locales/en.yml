@@ -36,7 +36,8 @@ en:
       </p>
 
   images:
-    save: "Save"
+    buttons:
+      save: "Save"
 
   legend:
     preview:
