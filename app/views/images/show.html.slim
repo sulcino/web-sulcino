@@ -1,0 +1,10 @@
+h1 = @image.title
+p = @image.description
+p = rails_blob_url(@image.file, only_path: false) if @image.file.attached?
+- if @image.file.attached?
+  div
+    = image_tag @image.file, style: "max-width: 100%"
+div
+  => link_to 'Edit', edit_image_path(@image)
+  = " | "
+  = link_to 'Back', images_path

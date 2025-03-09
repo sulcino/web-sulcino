@@ -1,0 +1,24 @@
+= form_with model: image, local: true, html: { multipart: true } do |form|
+  - if image.errors.any?
+    #error_explanation
+      h2 = "#{pluralize(image.errors.count, 'error')} prohibited this image from being saved:"
+      ul
+        - image.errors.full_messages.each do |msg|
+          li = msg
+  div
+    = form.label :title
+    br
+    = form.text_field :title
+  div
+    = form.label :description
+    br
+    = form.text_area :description
+  div
+    = form.label :file
+    br
+    = form.file_field :file
+    - if image.file.attached?
+      p Current file:
+      = image_tag image.file, width: 100
+  div
+    = form.submit t('images.buttons.save'), class: "basic-link"

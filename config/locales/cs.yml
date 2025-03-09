@@ -11,10 +11,11 @@ cs:
       edit: "Upravit"
       list: "Příspěvky"
       new_post: Nový příspěvek
+      save: "Uložit"
       show_post: "Zobrazit příspěvek"
     edit:
       title: "Editace příspěvku"
-    no_matching_posts: "Zádné příspěvky neodpovídají zvoleným tagům."
+    no_matching_posts: "Žádné příspěvky neodpovídají zvoleným tagům."
     tags:
       clear_filter: Vymazat filtr
     title: Blog
@@ -33,6 +34,9 @@ cs:
       Pokud máte nějaké dotazy, nabídky na spolupráci nebo jen chcete pozdravit, neváhejte mě kontaktovat.
       Budu rád, když se ozvete.
       </p>
+
+  images:
+    save: "Uložit"
 
   legend:
     preview:
@@ -71,6 +75,7 @@ cs:
     edit_profile: "Profil"
     english_language: "En"
     home: "Úvod"
+    images: "Obrázky"
     log_in: "Přihlásit"
     log_out: "Odhlásit"
     message_of_the_day: "MotD"

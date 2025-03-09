@@ -11,6 +11,7 @@ en:
       edit: "Edit"
       list: "Posts"
       new_post: New blog post
+      save: "Save"
       show_post: Show post
     edit:
       title: "Edit blog post"
@@ -33,6 +34,9 @@ en:
       If you have any questions, gig or business offers, or just want to say hello, feel free to contact me.
       I'd be happy to hear from you.
       </p>
+
+  images:
+    save: "Save"
 
   legend:
     preview:
@@ -72,6 +76,7 @@ en:
     edit_profile: "Profile"
     english_language: "En"
     home: "Home"
+    images: "Images"
     log_in: "Log in"
     log_out: "Log out"
     message_of_the_day: "MotD"
