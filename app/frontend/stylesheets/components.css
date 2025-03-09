@@ -97,6 +97,13 @@ a.preview-box:hover::before {
   width: 10em;
 }
 
+@media (max-width: 1000px) {
+  .blog-post-container hr {
+    margin: 2em;
+    width: 90%;
+  }
+}
+
 .blog-post-preview {
   border: 1px dashed var(--color-primary-light);
   border-radius: 0.5em;
@@ -111,6 +118,16 @@ a.preview-box:hover::before {
 }
 
 .edit-blog-post textarea {
-  min-height: 6em;
+  max-width: 100%;
+  min-height: 10em;
   width: 100%;
+}
+
+.preview-box img {
+  border: 1px solid var(--color-primary-medium);
+  border-radius: 0.2em;
+  float: left;
+  margin-right: 0.5em;
+  max-width: 10em;
+  max-height: 100%;
 }

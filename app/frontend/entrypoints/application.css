@@ -71,6 +71,18 @@ h6:first-child {
   margin-top: 0;
 }
 
+img {
+  display: block;
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+@media (max-width: 1000px) {
+  img {
+    max-width: 100%;
+  }
+}
+
 input[type="submit"] {
   font-weight: 200;
 }
@@ -124,7 +136,7 @@ a:hover {
 hr {
   border: none;
   border-top: 1.5px dashed var(--color-primary-medium);
-  margin: 20px auto;
+  margin: 2rem auto;
   overflow: visible;
   position: relative;
   width: 100%;

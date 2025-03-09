@@ -23,9 +23,9 @@ class BlogPost < ApplicationRecord
 
   def render_text(type = :text, locale:)
     text_method = "#{type}_#{locale}"
-    text = respond_to?(text_method) ? send(text_method) : text_en
-    renderer = Redcarpet::Render::HTML.new
+    text_to_render = respond_to?(text_method) ? send(text_method) : text_en
+    renderer = CustomRenderer.new(hard_wrap: true)
     markdown = Redcarpet::Markdown.new(renderer, autolink: true, tables: true)
-    markdown.render(text)
+    markdown.render(text_to_render)
   end
 end
