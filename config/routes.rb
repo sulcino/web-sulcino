@@ -22,5 +22,8 @@ Rails.application.routes.draw do
     # Legend
     get "legend", to: "legend#index", as: "legend_index"
     get "legend/:chapter/:section", to: "legend#show", as: "legend"
+
+    get "services/graphic", to: "services#graphic", as: :services_graphic
+    get "services/programming", to: "services#programming", as: :services_programming
   end
 end

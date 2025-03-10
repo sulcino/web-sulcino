@@ -35,6 +35,27 @@ en:
       I'd be happy to hear from you.
       </p>
 
+  graphic:
+    captions:
+      billboard: "billboard"
+      illustration_ink_watercolours: "dip pen and ink, watercolours"
+      poster: "poster"
+    preview:
+      description_html: >-
+        A few examples of my graphic work. Today it's more of a hobby, a way to do something creative
+        that engages different parts of the brain.
+      title: "Graphic design"
+    titles:
+      main: "Graphic design"
+
+  home_page:
+    blog_news:
+      title: "New on the blog"
+    projects:
+      title: "Projects"
+    services:
+      title: "Services"
+
   images:
     buttons:
       save: "Save"
@@ -61,6 +82,10 @@ en:
       edit: "Edit"
       list: "List"
       new: "Create message"
+
+  programming:
+    titles:
+      main: "Programming"
 
   reloading:
     preview:

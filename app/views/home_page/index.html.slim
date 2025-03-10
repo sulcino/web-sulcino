@@ -3,6 +3,8 @@ p = t('main_message_html')
 
 h4 = message_of_the_day_text
 
+br
+h3 = t("home_page.blog_news.title")
 div.preview-container
   - if @last_blog_posts.present?
     = link_to(blog_post_path(@last_blog_posts.first), class: "preview-box") do
@@ -13,6 +15,9 @@ div.preview-container
       h5 = @last_blog_posts.last.title
       = @last_blog_posts.last.rendered_preview_text
 
+hr
+h3 = t("home_page.projects.title")
+div.preview-container
   = link_to(legend_index_path, class: "preview-box") do
     h5 = t("legend.preview.title").html_safe
     p = t("legend.preview.description_html")
@@ -21,6 +26,14 @@ div.preview-container
     h5 = t("reloading.preview.title").html_safe
     p = t("reloading.preview.description_html")
 
+hr
+
+h3 = t("home_page.services.title")
+div.preview-container
+  = link_to(services_graphic_path, class: "preview-box") do
+    h5 = t("graphic.preview.title")
+    = image_tag("graphics/Illustration_Cats_01.jpeg", class: "preview-image")
+    p = t("graphic.preview.description_html")
   = link_to("#", class: "preview-box", data: { toggle: "modal", target: "#contactModal" }) do
     h5 = t("contacts.title").html_safe
     = t("contacts.description_html")
@@ -33,3 +46,8 @@ div.modal#contactModal(tabindex="-1" role="dialog" aria-labelledby="contactModal
         span.close-button(data-dismiss="modal") &times;
       div.modal-body
         = t("contacts.contacts_html")
+        div.modal-footer
+          = link_to "https://instagram.com/sulcino", target: "_blank", rel: "noopener" do
+            i.fab.fa-instagram.fa-2x.social-icon
+          = link_to "https://github.com/sulcino", target: "_blank", rel: "noopener" do
+            i.fab.fa-github.fa-2x.social-icon

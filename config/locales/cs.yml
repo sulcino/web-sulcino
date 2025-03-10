@@ -35,6 +35,27 @@ cs:
       Budu rád, když se ozvete.
       </p>
 
+  graphic:
+    captions:
+      billboard: "billboard"
+      illustration_ink_watercolours: "perokresba a akvarel"
+      poster: "plakát"
+    preview:
+      description_html: >-
+        Pár ukázek mé grafické práce. Dnes je to spíš příležitostný koníček, abych dělal něco kreativního,
+        u čeho se zapojí zase jiné části mozku.
+      title: "Grafický design"
+    titles:
+      main: "Grafický design"
+
+  home_page:
+    blog_news:
+      title: "Novinky na blogu"
+    projects:
+      title: "Projekty"
+    services:
+      title: "Služby"
+
   images:
     buttons:
       save: "Uložit"
@@ -60,6 +81,10 @@ cs:
       edit: "Upravit"
       list: "Seznam"
       new: "Vytvořit zprávu"
+
+  programming:
+    titles:
+      main: "Programování"
 
   reloading:
     preview:
