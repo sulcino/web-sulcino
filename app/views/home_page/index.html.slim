@@ -32,7 +32,7 @@ h3 = t("home_page.services.title")
 div.preview-container
   = link_to(services_graphic_path, class: "preview-box") do
     h5 = t("graphic.preview.title")
-    = image_tag("graphics/Illustration_Cats_01.jpeg", class: "preview-image")
+    = vite_image_tag("images/graphics/Illustration_Cats_01.jpeg", class: "preview-image")
     p = t("graphic.preview.description_html")
   = link_to("#", class: "preview-box", data: { toggle: "modal", target: "#contactModal" }) do
     h5 = t("contacts.title").html_safe
