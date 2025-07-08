@@ -19,18 +19,21 @@ hr
 h3 = t("home_page.projects.title")
 div.preview-container
   = link_to(legend_index_path, class: "preview-box") do
-    h5 = t("legend.preview.title").html_safe
+    h5 = t("projects.legend.preview.title").html_safe
     p = t("legend.preview.description_html")
 
   div.preview-box
-    h5 = t("reloading.preview.title").html_safe
+    h5 = t("projects.reloading.preview.title").html_safe
     p = t("reloading.preview.description_html")
 
+  div.preview-box
+    h5 = t("projects.zero_day.preview.title").html_safe
+    p = t("home_page.projects.preview.description_html")
 hr
 
-h3 = t("home_page.services.title")
+/ h3 = t("home_page.services.title")
 div.preview-container
-  = link_to(services_graphic_path, class: "preview-box") do
+  / = link_to(services_graphic_path, class: "preview-box") do
     h5 = t("graphic.preview.title")
     = vite_image_tag("images/graphics/Illustration_Cats_01.jpeg", class: "preview-image")
     p = t("graphic.preview.description_html")

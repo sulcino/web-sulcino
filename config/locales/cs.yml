@@ -26,7 +26,7 @@ cs:
       <p>
       <strong>David Rak</strong><br>
       mobil, whatsapp, signal, apple: <strong>777 001 093</strong><br>
-      e-mail: <strong>sulcino@gmail.com</strong> nebo <strong> rakdavid@icloud.com</strong><br>
+      e-mail: <strong>sulcino@gmail.com</strong><br>
       discord: <strong>sulcino#0106</strong>
       </p>
     description_html: >
@@ -60,16 +60,6 @@ cs:
     buttons:
       save: "Uložit"
 
-  legend:
-    preview:
-      title: "Legenda: Neboj se moci"
-      description_html: >-
-        RPG systém navržený tak, aby nebyl složitý, dával hráčům volnost a umožňoval tvorbu velmi 
-        silných hráčských postav.
-        <hr>
-        Ve vývoji
-    title: "Legenda: Neboj se moci"
-
   main_title: "U Bilba \"Sulcino\" Kořínka"
   main_message_html: >
     Na stránkách usilovně pracuji. Zkouším nové technologi, píši a testuji pravidla, a dělám další věci,
@@ -86,13 +76,33 @@ cs:
     titles:
       main: "Programování"
 
-  reloading:
-    preview:
-      title: "Legenda: Reloading..."
-      description_html: >-
-        Příběhová hra ze cyberpunkového světa, postavené na systému Legenda: Neboj se moci.
-        <hr>
-        Ve vývoji
+  projects:
+    legend:
+      preview:
+        title: "Legenda: Neboj se moci"
+        description_html: >-
+          RPG systém navržený tak, aby nebyl složitý, dával hráčům volnost a umožňoval tvorbu velmi 
+          silných hráčských postav.
+          <hr>
+          Ve vývoji
+      title: "Legenda: Neboj se moci"
+
+    reloading:
+      preview:
+        title: "Legenda: Reloading..."
+        description_html: >-
+          Příběhová hra ze cyberpunkového světa, postavené na systému Legenda: Neboj se moci.
+          <hr>
+          Ve vývoji
+
+    zero_day:
+      preview:
+        title: "Zero Day: Synced Hearts"
+        description_html: >-
+          Cyberpunkový příběh začínající v nedaleké budoucnosti. Akce, technologie a romantika.
+          <hr>
+          Work in progress
+      title: "Zero Day: Synced Hearts"
 
   topbar:
     are_you_sure_log_out: "Opravdu se chceš odhlásit?"
