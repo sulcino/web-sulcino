@@ -1,10 +1,9 @@
 # Zero-Day: Synced Hearts
 
-*Věnováno mé Kumiko, která o mne přišla.*
+*For my Kumiko, who lost me.*
 
----
 
-## Kapitola 1.: Pamatuješ, tenkrát v klubu?
+## Chapter 1: Remember That Night at the Club?
 
 ```
 > cargo test --release
@@ -12,176 +11,180 @@ Compiling..........successful
 Tests..........successful
 ```
 
-"Hotovo!"
+“Done!”
 
-S úlevou vypnul počítač a odstrčil se na židli od stolu. Monitory zčernaly a z reproduktorů začalo hrát "We are the champions, my friend..." Usmál se.
+With a sigh of relief, he turned off the computer and pushed his chair back from the desk. The monitors went black, and from the speakers came, “We are the champions, my friend…” He smiled.
 
-"Díky, Baldricku."
+“Thanks, Baldrick.”
 
-"Dobrá práce Dave." Umělá inteligence zvaná Baldrick, protože David měl až nezdravě rád staré britské sitcomy, nikdy nevynechal příležitost svého "šéfa" pochválit. Podle jeho analýzy, vhodná chvála zvyšuje Davidův výkon a soustředění v dlouhodobém horizontu o témeř 3%. Za ty roku měl v zásobě spoustu podobných statistik.
+“Nice work, Dave.” The artificial intelligence, called Baldrick—because David had an unhealthy fondness for old British sitcoms—never missed a chance to praise its “boss.” According to its analysis, the right kind of praise increased David’s long-term performance and focus by almost 3%. Over the years, it had accumulated plenty of similar statistics.
 
-Baldrick bylo dílo skupiny PittyBytes, bandy hackerů z Prahy, se kterou David dříve aktivně působil. Vlastně nikdy neodešel a ostatní respektovali, že se dal na "poctivou" práci, z jejich pohledu stejně tak nudnou jako mizerně placenou, v porovnáním s... s tím co dělal dřív. I když s nimi pořád občas vzal nějaký kšeft, ale akce v terénu už byla jen velmi výjimečná.
+Baldrick was the creation of PittyBytes, a band of hackers from Prague, with whom David had once been deeply involved. He never really left, and the others respected his choice to take up “honest” work—boring and poorly paid in their eyes compared to… the things he used to do. Though he still occasionally took on a job with them, field operations were now rare.
 
-AI Baldrick byl pravděpodobně unikát, i když je dost možné, že existovali podobné AI, které si jejich autoři hlídali stejně důkladně, jako PittyBytes tajili Baldricka. Nebyl to jen hodně dobrý jazykový model, ale dost možná jedna z prvních AGI, obecné umělé inteligence. Hlavní jádro běželo na jejich vlastním datacentru, patřičně chráněném a hlavně pečlivě utajené. Oficiálně se v něm nacházel superpočítač k pronajmutí, jako jeden z mnohých na světě, ale pro zákazníky využívali jen takovou část výkonu, aby pokryli náklady. Každý ze čtyř členů PittyBytes měl doma extra výkonný počítač, na kterém běžela personalizovaná verze Baldricka, sama o sobě velmi dobrá a hlavně nevyžadující připojení k síti. Ale pokud bylo potřeba opravdu zabrat, připojila se lokální verze k hlavnímu "mozku" a to se pak děli věci. Korporace by se posraly, kdyby tohle zjistily a dost možná by překopaly celé Česku, aby jejich data centrum našly. Anebo měly vlastní utajené AGI a jen se tiše smály, kdo ví. Faktem je jen to, že oficiálně žádná AGI neexistovala.
+Baldrick was likely unique—or at least one of a kind publicly known. It’s possible other similar AIs existed, kept just as secret as PittyBytes kept Baldrick. But Baldrick wasn’t just an advanced language model. It might very well have been one of the first AGIs—Artificial General Intelligence. Its core ran in their private datacenter, secured and thoroughly hidden. Officially, the datacenter was marketed as a rentable supercomputer—one among many worldwide—but only a fraction of its power was sold to clients to cover expenses. Each of the four PittyBytes members had a high-end machine at home running a personalized Baldrick—already impressive on its own and not requiring an internet connection. But if they needed full power, the local instance connected to the main “brain”—and then things got interesting. Corporations would lose their minds if they found out and might tear up all of Czechia looking for that datacenter. Or maybe they had their own AGIs and were silently laughing. Who knew? Officially, AGIs didn’t exist.
 
-"Mimochodem, v 19 hodin, tedy za hodinu a dvacet tři minut, máš být v klubu Black Rook na zvukové zkoušce"
+“By the way, at 19:00—one hour and twenty-three minutes from now—you’re due at the Black Rook club for soundcheck.”
 
-Tohle mu nebylo potřeba připomínat. Těší se na to celý týden a dnes od rána odpočítává hodiny. Ale jako vždy, nejdřív chtěl mít čistý stůl, aby mohl úplně vypnout. Jinak by mu ta zakázka vrtala v hlavě i na pódiu.
+As if he needed reminding. He’d been looking forward to this all week, counting the hours since morning. But as always, he wanted to finish his current work so he could completely switch off. Otherwise, the project would nag at him on stage.
 
-Ještě je trochu času. Takže rychlá sprcha, něco na zub a čaj. Nejdřív čaj. Najíst se může v klubu, ale kdo to kdy viděl, aby rocker pil na baru čaj.
+He still had a bit of time. Quick shower, a snack, and tea. Tea first. He could eat at the club later, but seriously—what kind of rocker drinks tea at the bar?
 
-Rychle se umyl a v klidu se sedl k čaji a svačině. Přehrával si přitom v hlavě play-list na večer, má pár nápadů na vylepšení.
+He washed up quickly and sat down with his tea and snack, going over the setlist in his head, considering a few tweaks.
 
-Je čas. Převlékl se a přetvořil IT slušňáka na vlasatého rockera v obnošených džínách s kovovými ozdobami.
+Time to go. He changed, transforming the polite IT guy into a long-haired rocker in worn jeans with metal accents.
 
-"Mnohem lepší."
+“Much better.”
 
-Spokojeně se zhluboka nadechl.
+He took a deep breath, satisfied.
 
-Odnesl jeho věrné kombo Rockerverb do výtahu, těžké jako kráva, ale s jeho fyzičkou to nebyl problém, a vrátil se pro kytaru a pedalboard.
+He hauled his trusty Rockerverb amp into the elevator—heavy as hell, but his physique could handle it—then returned for his guitar and pedalboard.
 
-"Zboř to tam, Dave," rozloučil se s ním Baldrick. "A nemusíš chodit domů sám, já se odpojím ještě než otevřete dveře," dodal přátelsky.
+“Knock ’em dead, Dave,” Baldrick called after him. “And no need to come home alone tonight; I’ll log off before you even open the door,” it added cheekily.
 
-"Díky, vtipálku. Dnes žádné vykecávání se servery v Pentagonu, jako posledně."
+“Thanks, smartass. And no chats with Pentagon servers this time, got it?”
 
-Co David v bytě zůstal sám, měl Baldrick podobné narážky čím dál častěji. Na pár dní přestal, když si David jednou přivedl domu fanynku. Ne že by to nebylo fajn, ale zjistil, že tohle není pro něj, ať se na pódiu tváří jak chce. Navíc mu to přišlo jako zbytečné bezpečnostní riziko. Přeci jen bylo v bytě pár věcí, o kterých by neměl nikdo vědět, nehledě na to, že fanynka ve skutečnosti nemusela být fanynka.
+Ever since David had been living alone, Baldrick’s remarks like this had become more frequent. They’d stopped for a few days when David once brought home a fan. Not that it wasn’t nice, but he’d realized it wasn’t for him—not really. Plus, it felt like an unnecessary security risk. There were things in the apartment no one should know about, not to mention the fan could easily have been more than she seemed.
 
----
+⸻
 
-V klubu Black Rook už bylo rušno. Připravili aparaturu na pódiu, udělali zkoušku a ještě zbyl čas na drink na baru. David nepil. Jednak si pořád pohrával s myšlenkou straight edge. Old-school, ale pořád to mělo své příznivce. Druhak měl dost velké auto, které pobralo všechnu aparaturu, takže skoro vždy řídil.
+The Black Rook club was already buzzing. The gear was set up on stage, the soundcheck went smoothly, and there was still time for a drink at the bar. David didn’t drink. Partly because he’d been flirting with the idea of going straight edge—old-school, sure, but still with its adherents—and partly because his van could fit all the band’s gear, so he was almost always the driver.
 
-Overclocked nijak nevybočovali. Dvě kytary, basa, bicí - jediná žena v bandě - a zpěv. Takový hard-rock punk alternativní kravál. Řev do mikrofonu, hutné hlasité riffy, pořádné bicí, basy, co tomu dají šťávu. Nejlepší způsob, jak ze sebe vyřvat všechen vztek na celý svět. I fanoušky to bavilo. Hráli sice v malých klubech, ale vždycky bylo plno a oni by ani jinak hrát nechtěli. Byli takhle mezi svými.
+Overclocked didn’t stand out much: two guitars, bass, drums—the drummer, Katka, being the only woman—and vocals. Hard-rock punk with a splash of alternative noise. Screaming into the mic, thick, loud riffs, pounding drums, bass that gave it all juice. The perfect way to roar out all the rage at the world. The fans loved it. Small clubs, always packed—and that was how they liked it. Among their own kind.
 
-Začali hrát. Davidova kytara prořízla hukot klubu úvodním riffem, fanoušci zařvali úvodní frázi. Tady byl ve svém živlu. Žádný kód, žádná logika, žádná hlava napěchovaná informacemi. Jen muzika, kytara a fanoušci. Nikdy nedělal na pódiu žádnou show, od toho měli zpěváka a basák mu s plným nasazením pomáhal. David byl klidný jako stoik, ponořený do jejich muziky, všechen svůj vztek a touhy posílal po strunách do zesilovače.
+The show began. David’s guitar sliced through the club’s roar with the opening riff, and the crowd shouted the first lyrics back at them. Here he was in his element. No code, no logic, no mind crammed with data. Just music, guitar, and fans. He never put on much of a show—vocals and bass had that covered with their full-throttle energy. David stood calm and stoic, lost in their sound, pouring all his anger and longing through his strings into the amp.
 
-Obecenstvo mu splývalo do křičící vlnící se masy. Tu koutkem oka zahlédl nezvyklý pohyb. Ačkoli byl už pár let jako že na odpočinku, zvyk všímat si podezřelých maličkostí se nedá odnaučit. A zase, mihnutí v davu. Drobná postava, černé vlasy, tmavé tričko, obratně se prosmýkla mezi lidmi a zmizela někde vlevo.
+The crowd blurred into a single, writhing, screaming mass. But out of the corner of his eye, he caught an odd movement. Even after years “retired,” habits die hard. Another flicker—a small figure, black hair, dark shirt, slipping deftly between people and disappearing to the left.
 
-Dva chlapi, jeden skoro o hlavu větší. Vzhledem ničím nevybočovali, ale jejich chování je prozrazovalo. Někoho hledají. David je pozoroval, než dohráli písničky. Oba pomalu postupovali doleva a očima pročesávali místnost. V pauze David došel ke zpěvákovi a něco mu řekl, přičemž hlavou naznačil směr k těm dvěma.
+Two men, one nearly a head taller than the other. Ordinary looking, but their behavior gave them away. They were searching. David kept an eye on them until the song ended. They were slowly working their way left, scanning the room.
 
-"Teď dáme Neons Bride," řekl zpěvák do mikrofonu. Klub souhlasné zahučel.
+In the break, David leaned over to the singer, saying something while nodding in the men’s direction.
 
-"Ale nejdřív... Přišli jste se bavit? Přišli jste si užít pořádný nářez?" zakřičel zpěvák.
+“Next up, Neon’s Bride,” the singer announced into the mic. The crowd cheered.
 
-Ohlušující souhlasný křik.
+“But first… you came here to party? You came for a real fucking riot?” he yelled.
 
-"Tak doufám, že dnes budou mít vyhazovači veget a nikdo si tu nekoleduje o kopanec do prdele. Jako třeba támhle ty dva potížisty," ukázal zpěvák na podezřelou dvojici. "Bude klid, že jo?" zařval plnou silou do mikrofonu.
+A deafening “Yeah!”
 
-Dav zvolal souhlasné "Jó!", ale lidi, co byli kolem podezřelých, jim začali věnovat nevítanou pozornost. Zamířili k nim i dva vyhazovači. Dvojice usoudila, že s takovou pozorností toho moc nezvládnou a raději odešli z klubu. Cestou ale pořád pátrali pohledy po lidech.
+“Then I hope the bouncers get a break tonight, and no one’s asking for a kick in the ass. Like those two troublemakers over there.” He pointed straight at the suspicious pair. “We’re good, yeah?” he roared.
 
-Celý zbytek večera David hledal tajemnou drobnou postavu, ale už ji nezahlédl. Snad se zase nenápadně vytratila, když setřásla pronásledovatele. Pokud opravdu šli po ní. Ale jeho zkušenosti mu říkali, že tohle bývají náhody jen velmi velmi zřídka.
+The crowd roared back. People near the men started eyeing them with unfriendly curiosity. Two bouncers began heading their way. The pair realized they weren’t getting anywhere with that much attention and wisely left, still scanning the room as they went.
 
-Vystoupení bylo super. Lidi málem zbořili klub a dokonce přiletěly i kalhotky. Přistály až na bicích a bubenice je pohotově zabavila. Ostatní členové kapely si doteď nebyli jistí, jestli je na holky nebo ne. Vtipkovala, že takovým oplzlíkům nemůže nechat dámské spodní prádlo na hraní, že jako jediná ženy v kapele musí chránit důstojnost fanynek, když oni myslí jen na oplzlosti, vůbec nechce vědět, co by s nimi doma dělali. Ale kdo ví co skrývala tím mravokárným monologem. Viděli za ta léta motat se kolem ní kluky i holky, ale vždy jen jako kamarády.
+For the rest of the night, David kept an eye out for the petite figure but didn’t see her again. Hopefully, she’d slipped away unnoticed once her pursuers were distracted. If they really had been after her. But his instincts told him such coincidences were very rare.
 
-Kapela se ještě chvíli zdržela v klubu, pobýt chvíli s fanoušky a napít se. Hostů brzy ubylo a kolem druhé hodiny už byly v klubu jen skupinky u stolů a David zůstal na baru jen s Katkou.
+The show was a blast. The crowd nearly tore the place down—and even tossed a pair of panties onstage. They landed on the drums, and Katka snatched them up with a grin. The rest of the band still weren’t sure if she liked girls or not. She joked that as the only woman in the band, she had to protect their fans’ dignity from her lecherous bandmates. What they might do with the panties at home, she didn’t even want to imagine. But maybe her righteous monologue hid more than it revealed. They’d seen guys and girls hanging around her over the years, but always just as friends.
 
-"Zeptal bych se tě, proč tak moc chceš ty kalhotky, ale je mi jasné, co bych si vyslechl."
+The band hung around a bit longer, chatting with fans and grabbing drinks. Soon the crowd thinned, and by two in the morning only a few groups remained at tables. David was left at the bar with Katka.
 
-"Dobrej tah, kámo," zakřenila se Katka. Seskočila z barové židle a plácla Davida rázně po zádech. Měla milou dívčí postavu, nebyla moc vysoká, ale když jste ji viděli mlátit do bubnů, bylo vám hned jasné, že je v posilovně jako doma.
+“I’d ask why you’re so eager to keep those panties, but I know what speech I’d get,” he teased.
 
-"Nekňuč," zastavila ho dřív, než si stihl postěžovat "a pojď to sbalit." Vyrazila k pódiu.
+“Smart move, dude,” Katka grinned, hopping off her barstool and clapping him on the back. Petite and feminine as she looked, one glance at her pounding the drums told you she probably lived at the gym.
 
-Když se otočil, uviděl ji - drobounkou štíhlou dívku v tmavém oblečení. Mířila svižně k východu. Když byla pár kroků ode dveří, ty se otevřeli a v nich stál velký chlap. Zarazila se a začala couvat. Rychle se rozhlédla, její oči rychle zaregistrovaly možné východy z místnosti. Jediný, kam se mohla dostat aniž by riskovala, že jí muž chytí, byly dveře za pódiem. Vedly do chodby v zázemí klubu a pak ven na parkoviště. Kapely tudy nosily vybavení. Rozeběhla se ke dveřím. Nohy ji však zradily, zaškobrtla o něco na podlaze a skácela těsně před pódiem. Davidovi neuniklo, že to nebylo nešikovností, ale únavou. Jakoby snad dvě noci nespala.
+“Stop whining,” she cut him off before he could respond, “and let’s pack it up.” She headed for the stage.
 
-To už ale David spěchal k ní. Chlap nechápavě koukal, co se děje. Na dívku a potom na Davida.
+When he turned, he saw her—the slight, slender girl in dark clothes, striding briskly toward the exit. Just as she reached the doors, a large man entered. She froze, then started backing away, her sharp eyes scanning for escape routes. The only exit she could realistically reach without risking being grabbed was the door behind the stage—leading to the club’s back hall and then the parking lot. Bands used it to load their gear. She dashed for it but stumbled over something on the floor, collapsing just short of the stage. David noted it wasn’t clumsiness—her legs simply gave out, as though she hadn’t slept in days.
 
-"Nazdar Dane. Ani jsem si tě tu dnes nevšiml."
+He was already moving toward her. The man at the door stared, confused.
 
-"Když jsem přišel, už jste hráli. Byl jsem pak u vchodu. Všechno v pohodě?" ukázal na dívku.
+“Hey, Dave. Didn’t notice you here tonight,” he said.
 
-Dívka měla vytřeštěné oči, ale dýchala klidně. Byla polekaná a unavená, ale ve střehu. Nezmatkovala, systematicky hledala východisko.
+“Caught your set after I got in. Everything cool?” David nodded toward the girl.
 
-"Jo jo, já se o to postarám."
+She was wide-eyed but breathing steadily. Frightened and exhausted yet fully alert, analyzing her options.
 
-Přistoupil pomalu k dívce, ruce volně podél těla.
+“Yeah, yeah, I’ll handle it,” the bouncer replied.
 
-"Klid, to je kamarád. Místní vyhazovač."
+David approached her slowly, hands loose at his sides.
 
-Sklonil se k ní a natáhl k ní ruku, aby jí pomohl na nohy. Chvíli si ho měřila pohledem, pak se podívala za odcházejícím vyhazovačem. Chytla se a s Davidovou pomocí vstala.
+“It’s okay—he’s a friend. House security.”
 
-Byla velmi hubená a určitě neměřila ani metr a půl. A byla to japonka. Když si to David uvědomil, přešel do angličtiny.
+He knelt and offered his hand to help her up. She studied him for a moment, glanced toward the departing bouncer, then grasped his hand and let him pull her to her feet.
 
-*"Klid, jsi v bezpečí. Tady se žádné problémy netolerují. Vypadáš unavená. Dáš si kafe? Sedneš si tady stranou ke stolu, já odnesu a Katkou aparaturu a pak za tebou přijdu a můžeme dát řeč."*
+She was very slight—barely five feet tall—and unmistakably Japanese. Switching to English, David said softly:
 
-Její oči těkaly po okolí, ale pořád se vracely k jeho. Jako by zvažovala, jestli mu může věřit. Pak si uvědomila, že pořád drží jeho ruku a jako dostala elektrickou ránu ho pustila a ucukla. David o kousek ustoupil, jen aby jí dal prostor a neměla pocit, že jí ohrožuje.
+“It’s okay. You’re safe. No trouble allowed here. You look tired. Want a coffee? Sit at that corner table, I’ll help Katka with the gear, and then we can talk.”
 
-*"Nebo jestli nechceš být tady na očích, můžeš jít tady dozadu a počkat na mne. Budeme tudy nosit věci. Když budeš chtít, je tam východ na parkoviště, tak budeš moci kdykoli odejít a nikdo tě neuvidí."*
+Her eyes darted around, always returning to his, as if weighing whether to trust him. Then she realized she still held his hand. With a start, she let go and stepped back. David took a small step back too, giving her space.
 
-Něco mu na té dívce nesedělo. Začal uvažovat jako v akci. Nebýt na očích, mít nenápadnou únikovou cestu, moci zabavit jejich auto. A měl pocit, že ona uvažuje úplně o tom samém.
+“Or if you’d rather not be seen, you can wait out back. We’ll be carrying gear through there. There’s an exit to the parking lot if you need to slip out unseen.”
 
-"Viděla jsem, co jsi udělal s těmi dvěma chlapy během vystoupení. Děkuji."
+Something about her didn’t add up. He slipped into an operational mindset—stay unseen, have an escape route, maybe even hijack their vehicle. He had a feeling she was thinking exactly the same.
 
-Promluvila čistou češtinou bez známky přízvuku a stále se mu dívala do očí. David měl pocit, že zkouší, jestli to popře. Zkouška, zda se mu dá věřit.
+“I saw what you did with those two men during the show. Thank you.”
 
-"Šli po tobě?"
+She spoke flawless Czech, without the slightest accent, still holding his gaze. Testing him—seeing if he’d deny it.
 
-Sotva znatelně kývla.
+“They were after you?”
 
-"Počkáš na mne vzadu?"
+A barely perceptible nod.
 
-Znovu kývnutí.
+“Will you wait for me out back?”
 
-"Ty prostě bez kalhotek neodejdeš, co? Hni sebou, lenochu!" houkla z pódia Katka zatímco smotávala kabely. "Holka, dej si bacha. On se tváří jako slušňák, ale o to větší perverznosti má v hlavě."
+Another nod.
 
-Dívka zvedla obočí.
+“You really won’t leave without those panties, huh? Move your ass, lazybones!” Katka yelled from the stage as she coiled cables. “Hey girl, watch out. He looks like a gentleman, but that’s when the pervy thoughts run deepest.”
 
-"Moc děkuju," procedil David skrz zuby směrem na pódium. Otočil se na dívku. "Pomůže, když řeknu, že si dělá srandu?"
+The girl raised an eyebrow.
 
-Dívka zvolna zavrtěla hlavou. Ale koutky úst jí cukly do úsměvu a v jejím chladném soustředěném výrazu najednou zahlédl snad i trochu pobavení. Usmál se na ni.
+“Thanks a lot,” David muttered toward the stage. To the girl: “Should I say she’s joking?”
 
-"Co se dá dělat."
+She shook her head slowly—but her lips twitched into a faint smile, a flash of amusement in her otherwise focused expression. David smiled back.
 
-Odemkl dveře dozadu a zajistil je aby se nezavřely. Potom dívku provedl chodbou ke dveřím na parkoviště a také je odemkl a zajistil.
+“What can you do.”
 
-"Doprava podél domu a jsi na ulici. Vrata nejsou zamčená."
+He unlocked the back door and propped it open, then led her through the hall to the parking lot exit, unlocking and securing that too.
 
-"Kumiko," řekla tiše. "Jmenuji se Kumiko."
+“Right, down the side of the building, and you’re on the street. The gate’s not locked.”
 
-"David," odpověděl trochu překvapeně. Mluvila česky jako rodilý mluvčí, tak čekal nečekal japonské jméno.
+“Kumiko,” she said softly. “My name’s Kumiko.”
 
-Ukázal Kumiko, kde si může stranou sednout, u baru jí nechal poslat kafe a pustil se s Katkou do vynášení. Pokaždé, když šel okolo, kouknul se na Kumiko a usmál. Vypadala uvolněněji a bylo jasné, že se ze všech sil snaží udržet otevřené oči.
+“David,” he replied, slightly surprised. She spoke Czech like a native, yet had a Japanese name.
 
-Když měli vše v autě, našel Kumiko jak spí s hlavou přenou o zeď. Lehce se dotkl jejího ramene. Trhla sebou, odrazila jeho ruku bleskovým pohybem a málem spadle ze židle, jak se pokusila uskočit. Unavené tělo ji zrazovalo. Obratně ji zachytil, aby neupadla. To už věděla co se děje a nebránila se. Ale jakmile stála pevně na nohách, vymanila se z jeho rukou.
+He showed Kumiko where she could sit quietly, sent a coffee to her table from the bar, and joined Katka to load out. Each time he passed, he glanced her way and smiled. She seemed more relaxed now but was clearly fighting to stay awake.
 
-"Potřebuješ si odpočinou." V jeho hlase znělo mnohem víc starostlivosti, než chtěl. "Jestli nemáš kam jít, můžeš přespat u mne. Jsem doma sám a mám pokoj pro hosty, budeš mít naprosté soukromí."
+Once the van was loaded, he found Kumiko asleep, her head resting against the wall. He touched her shoulder lightly. She flinched, smacked his hand away in a flash, and nearly toppled from the chair as she tried to leap back. Her body betrayed her, sluggish with fatigue. David caught her swiftly. She didn’t resist once she realized what was happening, but as soon as she was steady, she pulled away.
 
-Sledovala ho a hodnotila každé jeho slovo, ale oči se jí zavíraly a nohy neměla moc jisté.
+“You need rest.” His voice carried more concern than he intended. “If you’ve nowhere to go, you can crash at my place. I’m alone there, and there’s a guest room—you’ll have total privacy.”
 
-"Dobře," řekla tiše. To nebyl souhlas, ale čirá rezignace. Byla tak unavená, že jí nezbývaly jiné možnosti, než buď usnout někde za rohem na ulici a být vydány ma milost jakékoli opilé skupině grázlů co půjde kolem, nebo se vydat na milost tomuhle chlápkovi, co vypadá jako starej rocker a mluví jako matka Tereza. Nevěřila Davidovi, ale byl menší riziko.
+She studied him, parsing every word, though her eyelids drooped and her legs wobbled.
 
-Pomohl jí do auta a než ho obešel a sedl si za volant, už zase spala.
+“Okay,” she murmured. It wasn’t agreement so much as resignation. Too exhausted to consider options, she was choosing the lesser risk: sleep on the street and be at the mercy of passing drunks, or trust this stranger who looked like an aging rocker and spoke like Mother Teresa. She didn’t trust David, but he was the safer bet.
 
-Bydlel v lepším bytovém domě. Bezpečnostní systém ho rozpoznal za volantem a otevřel mu vrata do podzemní garáže a později i do jeho vlastní uzavřené části. Byl tam ještě velmi elegantně a naleštěně vyhlížející sedan a dvě motorky. Probudil Kumiko a pomohl jí z dodávky. Ačkoli byla rozespalá, její bystré oči pečlivě skenovali garáž i všechna auta. Byl si jistý, že ví přesně výrobce, modely, registrační značky i roky výroby všeho co tam má. U jedné motorky se její pohled na chvíli zastavil. Davidovi bylo jasné proč. Tuhle v katalogu nenajdete. "Kdo jsi, holka?" pomyslel si. "A do čeho ses to namočilo." Takhle se nechová holka, kterou obtěžoval nějaký magor na ulici, nebo kterou se pokusili unést. Takhle se chová někdo, kdo je zvyklý utíkat.
+He helped her into the van, and by the time he’d walked around and climbed in, she was already asleep again.
 
-Vyjeli výtahem do 14. patra. Baldrick hned odemkl dveře, ale jak slíbil, nedal o sobě vůbec vědět. Kumiko ale neuniklo nic.
+David lived in a high-end apartment building. The security system recognized him and opened the underground garage and later his private section. A sleek sedan and two motorcycles gleamed inside. He woke Kumiko and helped her out. Though groggy, her sharp eyes swept the garage, noting every vehicle—make, model, plates, year. One bike made her stare an instant longer. Of course—this one wasn’t in any catalog. Who are you, girl? And what have you gotten yourself into? She didn’t act like someone harassed on the street. She acted like someone used to running.
 
-"U vás se nezamyká?" podivila se upřímně.
+They took the elevator to the 14th floor. Baldrick unlocked the door but, as promised, remained silent. Kumiko, however, noticed everything.
 
-"Bezpečnostní systém budovy rozpozná nájemníky a automaticky odemkne dveře. Jde to vypnout, ale je to pohodlné." Nebyla to tak úplně pravda. Nemít Baldricka a nepohrát si trochu se zámkem, potřeboval by pro odemknutí bytu ještě kartu. Baldrick byl ale spolehlivější. Kdyby viděl, že Davidovi někdo drží u hlavy pistoli, neodemkl by nehledě na kartu. I když je pravda, že systém budovy dokázal rozpoznat i scénáře související s kriminalitou a místo otevření dveří kontaktoval bezpečnostní agenturu budovy.
+“You don’t lock your door?” she asked, genuinely surprised.
 
-Kývla hlavou, výraz tváře nečitelný. Vešli do bytu. David za nimi zamknul.
+“The building’s system recognizes tenants and unlocks automatically. I could turn it off, but it’s convenient.” Not strictly true. Without Baldrick’s tweaks, he’d still need a keycard. But Baldrick wouldn’t unlock if it detected a gun to David’s head—and the building’s system could detect certain criminal scenarios too.
 
-"Kdyby sis později chtěla dát sprchu, koupelna je tady," ukázal na dveře. Zavedl jí do velké místnosti, obýváku spojeného s kuchyní. "Všechno je ti k dispozici, vůbec se nestyď, všechno jídlo, pití, čaje támhle ve skříňce, máš-li ráda, cokoli. Támhle je zkušebna," ukázal na skleněnou zeď, za kterou byla místnost s kytarami, zesilovači a dalším muzikantským vybavením. "A za těmito dveřmi moje pracovna a ložnice."
+She nodded, face unreadable.
 
-Oči Kumiko byly sice unavené, ale byt skenovali s důkladností, že by si v hlavě mohla vytvořit 3D model.
+He led her in. “If you want a shower later, the bathroom’s there.” He gestured. “Feel free to use anything—food, drinks, teas are in that cabinet if you like. That’s the music room.” A glass wall revealed a space full of guitars, amps, and gear. “And through there’s my office and bedroom.”
 
-"Tvůj pokoj je tady, hned u vchodu. Když budeš chtít kdykoli odejít, jen zabouchni dveře od bytu. Na recepci se tě nebudou na nic ptát, ochranka ví, že jsi přišla se mnou."
+Kumiko’s tired eyes scanned everything meticulously, as if building a 3D model in her head.
 
-Kumiko to evidentně rozrušilo.
+“Your room’s here, near the door. If you ever want to leave, just shut the apartment door behind you. Security won’t question you—they know you came in with me.”
 
-"Ochranka sleduje kamery? A ukládá se záznam?" Spíš si to říkala pro sebe, než že by neznala odpovědi. Chvíli zpracovávala novou informaci a potom pokývala hlavou. "Rozumím."
+That clearly unsettled her.
 
-Rozhlédla se po pokoji pro hosty. Zbytek bytu vypadal jako mužské doupě, ale tady ještě byla poznat ženská ruka. Nijak to nekomentovala. Teď to byla nedůležitá informace.
+“Security monitors the cameras? Records everything?” she murmured, more to herself than asking. She processed the new info, then nodded. “Understood.”
 
-"A kdybys cokoli potřebovala, klidně mne vzbuď." Lehce kývla.
+The guest room was neat, with traces of a woman’s touch that contrasted the bachelor feel elsewhere. She didn’t comment—it was irrelevant.
 
-"Děkuji. Moc." Po japonském způsobu se uklonila. Začínala věřit, že jí od Davida opravdu nic nehrozí a byla mu vděčná. Nevěděla, jak jinak to vyjádřit. Davida to zaskočilo. Pokusil se také uklonit, jak to viděl v televizi. Až z toho byl v rozpacích.
+“And if you need anything, don’t hesitate to wake me.”
 
-"Nemáš vůbec za co. Dobrou noc."
+She nodded lightly. “Thank you. So much.” Then, with a small bow, she expressed gratitude the only way she knew how. It startled David. He awkwardly bowed back, as he’d seen on TV, feeling foolish.
 
-Odešel z pokoje a šel si dát rychlou sprchu.
+“No need. Good night.”
 
-Kumiko si sedla na postel a probírala události dnešního večera. Bylo nepravděpodobné, že by ji z klubu sledovali. Ale už mají jistotu, že je v Praze. Po dvou týdnech, to vůbec není dobré. Takhle rychle ji ještě nenašli, ale statisticky vzato měli zřejmě jen štěstí. Ale je v budově s permanentním monitorováním bezpečnostní agenturou a někde na serveru je záznam, jak sem přišla. A počítače nezapomínají a jejich zabezpečení, jak dobře věděla, nikdy není dokonalé. To ovšem znamená, že ty záznamy může odstranit. Bude muset. Je to nejvyšší priorita, pokud nemá hned zase někam utíkat. A ona zoufale potřebuje popadnout dech. Aspoň pár dní. Záznamy vymaže zítra. Nerada nechávala cokoli na potom, ale je tak vyčerpaná, že by nadělala víc škody než užitku, pokud by dřív neusnula.
+He left and headed for a quick shower.
 
-Nakoukla do skříní. Byly vesměs prázdné, ale našla několik pyžam a nočních košil. Usmála se. Opravdu pokoj pro hosty. Kdo má v bytě pokoj pro hosty a připraví pro ně i pyžamo? David je zvláštní. Ale to je nepodstatné. Odpočinout si, vymazat záznamy, to je priorita. A pak naplánovat další postup.
+Kumiko sat on the bed, replaying the evening. It was unlikely anyone had followed her from the club, but now they knew she was in Prague. After two weeks, that was bad. They hadn’t found her this fast before—probably just luck. But the building’s surveillance was an issue. Somewhere there was a record of her entering. Computers don’t forget, and no system is perfect. Which meant she’d have to erase the data. Priority one if she didn’t want to run again. And she desperately needed a breather—a few days at least. She’d wipe the records tomorrow. She hated leaving things unfinished, but she was so spent she’d only screw it up if she didn’t sleep first.
 
-Převlékla se do pyžama. I to nejmenší jí bylo velké, ale bylo příjemně měkké a pohodlné. David má dobrý smysl pro detaily. Nepodstatné. Teď spát.
+She peeked in the closet. Mostly empty, but stocked with pajamas and nightgowns. She smiled. A real guest room. Who even does that—keeps a guest room ready with pajamas? David was strange. But it didn’t matter. Rest, erase the records, then plan the next move.
+
+She changed into pajamas—the smallest size still too big but soft and comfortable. David had a knack for details. Irrelevant. Now sleep.
+
+Want me to keep going like this for the entire story as you write it? Or do you want me to also give it a polish pass so it reads more like a native English cyberpunk novel (tight prose, flow, slight adjustments where Czech phrasing wouldn’t hit naturally)?

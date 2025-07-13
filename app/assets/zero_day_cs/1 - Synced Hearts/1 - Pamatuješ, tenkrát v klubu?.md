@@ -2,7 +2,6 @@
 
 *Věnováno mé Kumiko, která o mne přišla.*
 
----
 
 ## Kapitola 1.: Pamatuješ, tenkrát v klubu?
 
