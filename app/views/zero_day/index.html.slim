@@ -1,0 +1,19 @@
+h1 = t("projects.zero_day.title").html_safe
+
+.rulebook-container
+  .sidebar
+    - @chapters.each do |chapter|
+      .chapter
+        h3= chapter[:name]
+        ul
+          - chapter[:sections].each do |section|
+            li
+              = link_to section[:name], zero_day_path(chapter: chapter[:slug], section: section[:slug]), class: (@current_chapter == chapter[:slug] && @current_section == section[:slug] ? 'active' : '')
+
+  hr
+
+  .content
+    - if @content
+      = markdown(@content)
+    - else
+      / p.intro Select a section to begin reading

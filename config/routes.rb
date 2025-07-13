@@ -23,6 +23,10 @@ Rails.application.routes.draw do
     get "legend", to: "legend#index", as: "legend_index"
     get "legend/:chapter/:section", to: "legend#show", as: "legend"
 
+    # Zero-Day
+    get "zero_day", to: "zero_day#index", as: "zero_day_index"
+    get "zero_day/:chapter/:section", to: "zero_day#show", as: "zero_day"
+
     get "services/graphic", to: "services#graphic", as: :services_graphic
     get "services/programming", to: "services#programming", as: :services_programming
   end

@@ -18,7 +18,7 @@ div.preview-container
 hr
 h3 = t("home_page.projects.title")
 div.preview-container
-  div.preview-box
+  = link_to(zero_day_index_path, class: "preview-box") do
     h5 = t("projects.zero_day.preview.title").html_safe
     p = t("projects.zero_day.preview.description_html")
 
