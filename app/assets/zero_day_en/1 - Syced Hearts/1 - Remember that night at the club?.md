@@ -183,6 +183,6 @@ He left and headed for a quick shower.
 
 Kumiko sat on the bed, replaying the evening. It was unlikely anyone had followed her from the club, but now they knew she was in Prague. After two weeks, that was bad. They hadn’t found her this fast before—probably just luck. But the building’s surveillance was an issue. Somewhere there was a record of her entering. Computers don’t forget, and no system is perfect. Which meant she’d have to erase the data. Priority one if she didn’t want to run again. And she desperately needed a breather—a few days at least. She’d wipe the records tomorrow. She hated leaving things unfinished, but she was so spent she’d only screw it up if she didn’t sleep first.
 
-She peeked in the closet. Mostly empty, but stocked with pajamas and nightgowns. She smiled. A real guest room. Who even does that—keeps a guest room ready with pajamas? David was strange. But it didn’t matter. Rest, erase the records, then plan the next move.
+She peeked in the closet. Mostly empty, but stocked with pajamas and nightgowns. She smiled. A real guest room. Who even does that—keeps a guest room ready with pajamas? David is strange. But it's irrelevant. Rest, erase the records, then plan the next move.
 
 She changed into pajamas—the smallest size still too big but soft and comfortable. David had a knack for details. Irrelevant. Now sleep.
