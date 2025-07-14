@@ -186,5 +186,3 @@ Kumiko sat on the bed, replaying the evening. It was unlikely anyone had followe
 She peeked in the closet. Mostly empty, but stocked with pajamas and nightgowns. She smiled. A real guest room. Who even does that—keeps a guest room ready with pajamas? David was strange. But it didn’t matter. Rest, erase the records, then plan the next move.
 
 She changed into pajamas—the smallest size still too big but soft and comfortable. David had a knack for details. Irrelevant. Now sleep.
-
-Want me to keep going like this for the entire story as you write it? Or do you want me to also give it a polish pass so it reads more like a native English cyberpunk novel (tight prose, flow, slight adjustments where Czech phrasing wouldn’t hit naturally)?
